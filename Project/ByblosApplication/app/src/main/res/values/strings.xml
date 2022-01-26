@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Byblos Rental Services</string>
+    <string name="loginTitle">Login</string>
+    <string name="loginNameTitle">Username</string>
+    <string name="loginNameField">Insert username here</string>
+    <string name="loginPassName">Password</string>
+    <string name="loginRegister">REGISTER ACCOUNT</string>
+    <string name="loginLogin">Login</string>
+    <string name="byblosLogo">Byblos logo</string>
+    <string name="registerBranchTitle">Register Branch Account</string>
+    <string name="registerBranchNameTitle">Branch Name</string>
+    <string name="registerBranchWorkingHoursTitle">Working Hours</string>
+    <string name="registerBranchAddress">Address</string>
+    <string name="registerBranchEmail">E-Mail</string>
+    <string name="registerBranchButton">Register Account</string>
+    <string name="loginRegisterBranch">Register Branch Account</string>
+    <string name="loginRegisterCustomer">Register Customer Account</string>
+    <string name="register_customer_account">Register Customer Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="address">Address</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcomeText">Welcome</string>
+    <string name="to_byblos">to Byblos</string>
+    <string name="register_account">Register Account</string>
+    <string name="yyyy_mm_dd">(YYYY-MM-DD)</string>
+
+    <string name="Admin">Administrator</string>
+    <string name="services">Services</string>
+    <string name="view_customer_accounts">View Customer Accounts</string>
+    <string name="accounts_title">Accounts</string>
+    <string name="branch_accounts">Branch Accounts</string>
+    <string name="customer_accounts">Customer Accounts</string>
+    <string name="customer_accounts_title">Customer Accounts</string>
+    <string name="add_service">Add Service</string>
+    <string name="serviceNameTitle">Name</string>
+    <string name="serviceCostTitle">Hourly Cost</string>
+    <string name="add_service_button">Add Service</string>
+    <string name="fieldsTitle">Fields</string>
+    <string name="add_service_button_">Add Service to Services</string>
+    <string name="add_field_button">Add Field...</string>
+    <string name="refresh">Refresh</string>
+    <string name="edit_service">Edit Service</string>
+    <string name="edit_service_button">Save Changes to Service...</string>
+    <string name="address_line_1">Street Address</string>
+    <string name="address_line_2">Unit Number</string>
+    <string name="address_city">City</string>
+    <string name="address_province">Province/State</string>
+    <string name="address_country">Country</string>
+    <string name="address_postal_code">Postal/ZIP Code</string>
+    <string name="a1b2c3_12345">(ex: A1B2C3, 12345)</string>
+    <string name="province_format">(ex: ON, QC)</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_phone_number">Phone Number</string>
+    <string name="edit_address">Address</string>
+
+    <string name="edit_branch_name">Branch Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_street">Street</string>
+    <string name="edit_unit">Unit Number</string>
+    <string name="edit_city">City</string>
+    <string name="edit_province">Province/State</string>
+    <string name="edit_country">Country</string>
+    <string name="edit_postal">Postal/ZIP Code</string>
+    <string name="registerPhoneNumberTitle">Phone Number</string>
+    <string name="workingHours">Working Hours</string>
+    <string name="weekdayTitle">Day</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="startTitle">Start</string>
+    <string name="endTitle">End</string>
+    <string name="holiday">Holidays</string>
+    <string name="serviceRequests">Service Requests</string>
+    <string name="saveHours">Save...</string>
+    <string-array name="week_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Holidays</item>
+    </string-array>
+    <string-array name="search_params">
+        <item>address</item>
+        <item>working hours</item>
+        <item>type of service</item>
+    </string-array>
+    <string name="searchWH">Search by: Working Hours</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="branch_select">Select a service</string>
+</resources>

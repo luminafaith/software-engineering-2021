@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AccountList"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_marginVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/service_name"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:minWidth="300dp"
+            android:text="service name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_marginTop="3dp"
+            android:textColor="#25AF21"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/service_name"
+            android:text="HOLD"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/edit_service"-->
+<!--        android:layout_width="1dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:maxWidth="10dp"-->
+<!--        android:maxHeight="20dp"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:padding="3dp"-->
+<!--        android:background="@color/white"-->
+<!--        app:srcCompat="@drawable/pencil_icon" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/delete_service"-->
+<!--        android:layout_width="1dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:maxWidth="20dp"-->
+<!--        android:maxHeight="20dp"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:padding="2dp"-->
+<!--        android:background="@color/white"-->
+<!--        app:srcCompat="@drawable/trash_can_icon" />-->
+
+</LinearLayout>
+

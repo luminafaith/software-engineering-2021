@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchByDoubleFieldActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <TextView
+            android:id="@+id/searchByWHTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="@string/searchWH"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/startTextView"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/endTextView"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:text="@string/end"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/searchByWH1"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="18dp"-->
+<!--                android:hint="Start typing..." />-->
+
+<!--            <Space-->
+<!--                android:layout_width="36dp"-->
+<!--                android:layout_height="18sp" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/searchByWH2"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Start typing..." />-->
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/searchByWH1"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/input_border"
+                android:hint="Start typing..."
+                android:inputType="time" />
+
+            <EditText
+                android:id="@+id/searchByWH2"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="18dp"
+                android:layout_gravity="center"
+                android:background="@drawable/input_border"
+                android:hint="Start typing..."
+                android:inputType="time" />
+
+            <ImageButton
+                android:id="@+id/updateBranches"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/input_border"
+                android:elevation="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/magnifying_glass" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/dayOfTheWeek"
+            android:layout_width="375dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/spinner_background" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listOfSearchedWH"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_marginHorizontal="10dp"
+                android:divider="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/registerBranchTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="10dp"
+                android:text="@string/registerBranchTitle"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/registerBranchUsernameField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+
+                    android:autofillHints="username"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text=""
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchUsernameText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchUsernameField"
+                    android:text="@string/loginNameTitle"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchPasswordField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="password"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchPasswordTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchPasswordField"
+                    android:text="@string/loginPassName"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchNameField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+
+                    android:autofillHints="username"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text=""
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchNameTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchNameField"
+                    android:text="@string/registerBranchNameTitle"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchPhoneNumberField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="Phone number"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:minHeight="48dp"
+                    android:text=""
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerPhoneNumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchPhoneNumberField"
+                    android:text="@string/registerPhoneNumberTitle"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchEmailField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+
+                    android:autofillHints="username"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:text=""
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchEmailTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchEmailField"
+                    android:text="@string/registerBranchEmail"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/registerBranchWorkingHoursTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:layout_marginBottom="20sp"
+                    android:text="General Working Hours"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/registerBranchWorkingHoursStartField"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:ems="6"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:inputType="time"
+                            android:minHeight="48dp"
+                            tools:ignore="DuplicateSpeakableTextCheck" />
+
+                        <TextView
+                            android:id="@+id/registerBranchWorkingHoursStartFieldSubtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:labelFor="@id/registerBranchWorkingHoursStartField"
+                            android:text="START" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/registerBranchWorkingHoursEndField"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:ems="6"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:inputType="time"
+                            android:minHeight="48dp"
+                            tools:ignore="DuplicateSpeakableTextCheck" />
+
+                        <TextView
+                            android:id="@+id/registerBranchWorkingHoursEndFieldSubtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:labelFor="@id/registerBranchWorkingHoursEndField"
+                            android:text="END" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:id="@+id/workingHoursInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:labelFor="@id/registerBranchWorkingHoursEndField"
+                    android:textAlignment="center"
+                    android:paddingHorizontal="20dp"
+                    android:textColor="#7A7A7A"
+                    android:text="You can modify these values later for each individual day from your profile" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:layout_marginBottom="20sp"
+                    android:labelFor="@+id/registerBranchAddressField"
+                    android:text="@string/address"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/registerBranchAddressLine1Field"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="postalAddress"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressLine1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressLine1Field"
+                    android:text="@string/address_line_1"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchAddressLine2Field"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="postalAddress"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressLine2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressLine2Field"
+                    android:text="@string/address_line_2"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchAddressCityField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="postalAddress"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressCity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressCityField"
+                    android:text="@string/address_city"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchAddressProvinceField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="postalAddress"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressProvince"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressProvinceField"
+                    android:text="@string/address_province"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/provinceSubTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressProvinceField"
+                    android:text="@string/province_format"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchAddressCountryField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="postalAddress"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressCountry"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressCountryField"
+                    android:text="@string/address_country"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/registerBranchAddressPostalCodeField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:autofillHints="postalAddress"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/registerBranchAddressPostalCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressPostalCodeField"
+                    android:text="@string/address_postal_code"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/postalCodeSubTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:labelFor="@id/registerBranchAddressPostalCodeField"
+                    android:text="@string/a1b2c3_12345"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/registerBranchButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20pt"
+                android:onClick="handleBranchRegistration"
+                android:text="@string/registerBranchButton" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

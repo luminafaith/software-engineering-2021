@@ -1,0 +1,92 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/avatarImage"
+                android:layout_width="214dp"
+                android:layout_height="214dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/account_logo"
+                android:elevation="5dp"
+                tools:ignore="UsingOnClickInXml" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcomeText"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <!--        <View-->
+            <!--            android:id="@+id/divider"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="3dp"-->
+            <!--            android:layout_centerHorizontal="true"-->
+            <!--            android:layout_marginHorizontal="20dp"-->
+            <!--            android:background="?android:attr/listDivider" />-->
+
+            <TextView
+                android:id="@+id/nameFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="account"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <!--        <View-->
+            <!--            android:id="@+id/divider4"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="1dp"-->
+            <!--            android:layout_gravity="center"-->
+            <!--            android:layout_marginStart="120dp"-->
+            <!--            android:layout_marginEnd="120dp"-->
+            <!--            android:layout_marginBottom="70dp"-->
+            <!--            android:background="?android:attr/listDivider" />-->
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/roleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                android:text="you are logged in as account account"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/debugButtonCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105240824195",
+    "project_id": "byblos-application",
+    "storage_bucket": "byblos-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105240824195:android:e28c3827cb8df1eba74eb6",
+        "android_client_info": {
+          "package_name": "ca.uottawa.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105240824195-kinugbs8b9049jo2i2qik6favea0pbkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe1oE80SEj6oe22yDPJvKml6ulYkcEwMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105240824195-kinugbs8b9049jo2i2qik6favea0pbkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

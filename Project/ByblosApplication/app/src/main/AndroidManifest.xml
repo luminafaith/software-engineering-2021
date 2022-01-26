@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.uottawa.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/byblos_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/byblos_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ByblosApplication">
+        <activity
+            android:name=".CustomerChooseAction"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerBranchRateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchBySingleField"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByDoubleFieldActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerMain"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeItemService"
+            android:exported="true" />
+        <activity
+            android:name=".AvailableServicesManager"
+            android:exported="true" />
+        <activity
+            android:name=".BranchProfileEditor"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeMain"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeServiceRequestManagementActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeServiceExamineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeWorkingHoursActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerServiceRequestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerServiceListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomeScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterCustomerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterBranchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminAccountManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminServiceAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminServiceEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ServiceRequestServiceSelectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

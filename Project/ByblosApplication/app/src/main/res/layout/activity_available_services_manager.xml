@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvailableServicesManager">
+
+    <ViewFlipper
+        android:id="@+id/availableServicesViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/availableServicesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="Available Services Manager"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/saveWarning1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="#D8655C"
+                android:text="Please make sure to save before exiting!" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/saveNewServiceButton"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="15dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:onClick="save"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/addNewServiceButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#ACACAC"
+                android:text="Add Existing Service"
+                android:onClick="addNewService"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/noServicesMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:text="No services have been added,\n try adding a new service!" />
+
+            <ListView
+                android:id="@+id/listViewAvailableServices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:divider="@null" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/allAvailableServicesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="All Available Services"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/saveWarning2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="#D8655C"
+                android:text="Please make sure to save before exiting!" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/cancelNewServiceButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#ACACAC"
+                android:text="Cancel"
+                android:onClick="cancelNewService"
+                android:textColor="#000"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ListView
+                android:id="@+id/listViewNewAvailableServices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:layout_marginHorizontal="10dp" />
+
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</RelativeLayout>
